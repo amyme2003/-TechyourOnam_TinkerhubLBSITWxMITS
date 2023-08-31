@@ -1,0 +1,32 @@
+c1 = circle(r=150,fill=color(60,0,8),stroke=color(60,0,8))
+show(c1)
+b1 = rectangle(h=200, w=200, fill="maroon", stroke="none")
+b1_r = b1 | repeat(10, rotate(18))
+show(b1_r)
+
+b2 = rectangle(h=175, w=175, fill="brown", stroke="none")
+b2_r = b2 | rotate(9) | repeat(10, rotate(18))
+show(b2_r)
+
+b3 = rectangle(h=153, w=153, fill="orange", stroke="orange")
+b3_r = b3 | rotate(18) | repeat(10, rotate(18))
+show(b3_r)
+
+b4 = rectangle(h=133, w=133, fill="yellow", stroke="yellow")
+b4_r = b4 | rotate(27) | repeat(10, rotate(18))
+show(b4_r)
+
+c2=circle(r=75,fill="maroon",stroke="maroon")
+
+bg_circle = circle(r=70, fill=color(170,30, 70), stroke="none")
+show(c2,bg_circle)
+
+e1=ellipse(w=6,h=130,fill="maroon")|repeat(180,rotate(5))
+e3=ellipse(w=10,h=70,fill="maroon",stroke="none")|repeat(20,rotate(10))
+r1=rectangle(w=50,h=50,fill="brown",stroke="maroon")|repeat(100,rotate(15))
+r2=rectangle(w=40,h=40,fill="#FFFF99",stroke="none")|repeat(100,rotate(15))
+r3=rectangle(w=30,h=30,fill="brown",stroke="none")|repeat(100,rotate(15))
+show(e1,e3,r1,r2,r3)
+e2=ellipse(w=12,h=6,x=10,stroke="white",fill="orange") | repeat(10, rotate(35))
+show(e2)
+print("\t\tHappy Onam")
